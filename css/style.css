@@ -1,0 +1,421 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 0 4rem;
+  width: 100%;
+}
+
+.header {
+  padding: 13px 0;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .all .right .dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 0 35px;
+}
+
+.header .all .right .dropdown:hover .dp-content {
+  opacity: 1;
+}
+
+.header .all .right .dropdown:hover span {
+  color: #ff6600;
+  cursor: pointer;
+}
+
+.header .all .right .dropdown span {
+  font-size: 12px;
+  padding: 25px 10px;
+}
+
+.header .all .right .dropdown .dp-content {
+  position: absolute;
+  border-top: 2px solid #ff6600;
+  left: 0;
+  top: 2.5rem;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.header .all .right .dropdown .dp-content a {
+  text-decoration: none;
+  display: block;
+  border: 1px solid #fafafa;
+  color: #888;
+  background-color: #fff;
+  padding: 10px 30px;
+  font-size: 12px;
+}
+
+#First {
+  background-image: url(https://demo.nrgthemes.com/projects/travel/img/home_8/slide.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 27rem 0 5rem 0;
+  cursor: pointer;
+}
+
+#First .first-text h3 {
+  font-size: 22px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#First .first-text h3 span {
+  color: #ff6600;
+}
+
+#First .first-text h1 {
+  font-size: 45px;
+  color: #fff;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+#First .first-text p {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+#Tours {
+  padding: 5rem 0;
+  background-color: #f8f8f8;
+}
+
+#Tours .tour-text {
+  text-align: center;
+}
+
+#Tours .tour-text h4 {
+  color: #ff6600;
+  font-size: 18px;
+}
+
+#Tours .tour-text hr {
+  width: 100px;
+  height: 4px;
+  background-color: #ff6600;
+  border: 1px solid #ff6600;
+  margin: 20px auto;
+}
+
+#Tours .tour-text h2 {
+  font-size: 32px;
+  color: #222222;
+}
+
+#Tours .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 4rem;
+}
+
+#Tours .all .box {
+  width: 32%;
+}
+
+#Tours .all .box .top {
+  position: relative;
+}
+
+#Tours .all .box .top .box-text {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background-color: #03a303;
+  border-radius: 8px;
+  padding: 10px 25px;
+  opacity: .8;
+}
+
+#Tours .all .box .top .box-text span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#Tours .all .box .top img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+#Tours .all .box .bottom {
+  background-color: #fff;
+  padding: 27px 20px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Tours .all .box .bottom p {
+  font-size: 12px;
+  color: #bebebe;
+}
+
+#Tours .all .box .bottom h4 {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-top: 13px;
+}
+
+#Tours .all .box .bottom i {
+  color: #ffde00;
+  margin: 13px 0;
+}
+
+#Tours .all .box .bottom .star {
+  color: black;
+}
+
+#Tours .all .box .bottom .text {
+  font-size: 15px;
+  color: #bebebe;
+}
+
+#Tours .all .box .bottom .alt {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#Tours .all .box .bottom .alt .button {
+  text-decoration: none;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 15px 25px;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 30px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Tours .all .box .bottom .alt .button:hover {
+  background-color: transparent;
+  border: 2px solid #ff6600;
+  color: #ff6600;
+}
+
+#Tours .all .box .bottom .alt a {
+  font-size: 12px;
+  color: #bebebe;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 20px 60px 20px 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Tours .all .box .bottom .alt p {
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+#Tours .all .box .bottom .alt .flag {
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#Tours .all .box .bottom .alt .flag i {
+  color: #bebebe;
+}
+
+#Tours .all .box .bottom .alt .flag:hover {
+  color: #ff6600;
+}
+
+#Tours .all .box .bottom .alt .flag:hover i {
+  color: #e7e5e5;
+}
+
+#Subs {
+  background-image: url(https://demo.nrgthemes.com/projects/letstravelwp/wp-content/uploads/2016/01/bg_block_11-1.jpg?id=1165);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 8rem 0;
+}
+
+#Subs .sub-text {
+  text-align: center;
+}
+
+#Subs .sub-text h4 {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+#Subs .sub-text hr {
+  width: 100px;
+  height: 4px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  margin: 20px auto;
+}
+
+#Subs .sub-text h2 {
+  font-size: 32px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+}
+
+#Subs input {
+  background-color: transparent;
+  width: 45%;
+  height: 60px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 30px;
+  padding-left: 2rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+#Subs button {
+  padding: 20px 20px;
+  background-color: #ff6600;
+  border: 2px solid #ff6600;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 30px;
+  margin-left: 30px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  cursor: pointer;
+}
+
+#Subs button:hover {
+  background-color: transparent;
+  color: #ff6600;
+}
+
+#Service {
+  padding: 5rem 0;
+  background-color: #f8f8f8;
+}
+
+#Service .service-text {
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+#Service .service-text h4 {
+  color: #222222;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+#Service .service-text hr {
+  width: 100px;
+  height: 4px;
+  background-color: #ff6600;
+  border: 1px solid #ff6600;
+  margin: 20px auto;
+}
+
+#Service .service-text h2 {
+  font-size: 32px;
+  color: #222222;
+  letter-spacing: 2px;
+}
+
+#Service .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Service .all .box {
+  width: 24%;
+  text-align: center;
+  background-color: #fff;
+  padding: 80px 20px 30px 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+#Service .all .box i {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #ff6600;
+  color: #fff;
+  padding: 20px;
+  font-size: 35px;
+  border-radius: 100%;
+}
+
+#Service .all .box .case {
+  padding: 20px 25px;
+}
+
+#Service .all .box h5 {
+  font-size: 1rem;
+}
+
+#Service .all .box p {
+  color: rgba(34, 34, 34, 0.6);
+  font-size: 14px;
+  margin: 15px 0 25px 0;
+  line-height: 20px;
+}
+
+#Service .all .box a {
+  padding: 13px 13px;
+  text-decoration: none;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#Service .all .box a:hover {
+  background-color: #fff;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+}
+/*# sourceMappingURL=style.css.map */
